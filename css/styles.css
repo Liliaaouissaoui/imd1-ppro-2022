@@ -11,6 +11,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   width: 380px;
+  background-color: #c2b69f;;
 }
 /* 
 Roc Grotesk Bold
@@ -80,8 +81,9 @@ p {
   font-style: normal;
 }
 
-hr {
-  color: #cbc9b9;
+.textPresentation {
+  margin-bottom: 75px;
+  margin-top: 55px;
 }
 
 .container {
@@ -90,8 +92,23 @@ hr {
 
 .logoBio {
   width: 60px;
+  position: relative;
+  left: 40%;
 }
 
 .imgPresentation {
-  width: 217px;
+  position: relative;
+  left: 14%;
+  width: 245px;
+  margin-bottom: 70px;
+  border-radius: 68px;
+}
+
+.containerPresentation {
+  display: flex;
+  flex-direction: column;
+}
+
+.containerHeader {
+  padding: 1px;
 }
