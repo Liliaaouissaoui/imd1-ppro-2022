@@ -49,9 +49,14 @@ color texte:  color: #312422;
   margin-top: 25px;
 }
 
+.BeeEndPage {
+  width: 145px;
+  margin: -30px;
+}
+
 .logoHeader {
   width: 230px;
-  margin-bottom: 134px;
+  margin-bottom: 150px;
 }
 
 .line {
@@ -60,4 +65,33 @@ color texte:  color: #312422;
   margin-left: auto;
   margin-right: auto;
   width: 300px;
+}
+
+h2 {
+  font-family: Emilea;
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+p {
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+hr {
+  color: #cbc9b9;
+}
+
+.container {
+  padding: 20px;
+}
+
+.logoBio {
+  width: 60px;
+}
+
+.imgPresentation {
+  width: 217px;
 }
