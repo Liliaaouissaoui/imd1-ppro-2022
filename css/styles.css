@@ -12,7 +12,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   width: 380px;
-  background-color: #c2b69f;
+  background-color: #d18a06;
   ;
 }
 
@@ -115,86 +115,45 @@ p {
 .containerHeader {
   padding: 1px;
 }
-/* 
-.ficheAdresseContainer {
-  background-color: #eeebe2;
-  width: 300px;
-  height: 145px;
-}
-
-
-.ficheAdresseContainer {
-  position: relative;
-  border-color: #dfd8cb;
-  border: 10px;
-  background-color: #eeebe2;
-}
-
-.topBorder {
-
-}
-
-.ficheAdresseContainerDeux {
-  position: relative;
-}*/
-/* 
-.imgAdresse {
-  width: 40px;
-  position: absolute;
-} */
-
-/* .croix {
-  width: 10px;
-  position: relative;
-  right: 20px;
-} */
-/* .adresseLine {
-  margin: 2px;
-  color: #cbc9b9;
-  margin-left: auto;
-  margin-right: auto;
-  width: 300px;
-} 
-
-.ficheAdresseContainer {
-  display: flex;
-}
-
-.imgAdresse {
-  width: 40px;
-  display: flex;
-}
-
-.containerlenny {
-  background-color: red;
-  display: flex;
-  flex-direction: column;
-  margin: 0 20px;
-}
-
-.croix {
-  background-color: blue;
-  height: 20px;
-}
-
-.lenny {
-  display: flex;
-}
-*/
-
 
 .titreAdresse {
   position: relative;
-  top: 2px;
-  border-width: 2px 0px; 
-  border-style: solid; 
-  border-color: blue; 
+  bottom: 108px;
+  left: 20px;
+  border-width: 2px 0px;
+  border-style: solid;
+  border-color: #cbc9b9;
   margin-left: auto;
   margin-right: auto;
-  width: 150px;
+  width: 130px;
+}
+
+.fontTitleAdresse {
+  font-family: Emilea;
+  font-weight: normal;
+  font-style: normal;
+  margin: 8px;
 }
 
 .fenetreAdresse {
   width: 300px;
   padding: 0px 40px;
+  position: relative;
 }
+
+.textAdresse {
+  position: relative;
+  color: #dfd8cb;
+  font-size: 12px;
+  text-align: left;
+  left: 160px;
+  bottom: 113px;
+}
+
+.bricolage {
+  margin-top: 34px;
+}
+/*
+.containerAdresse {
+  margin-bottom: -85px;
+}*/
