@@ -47,6 +47,15 @@ color texte:  color: #312422;
   background-color: #eeebe2;
 }
 
+.subtitle {
+  font-family: 'Emilea';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  color: #312422;
+  font-size: 10px;
+}
+
 .BeeeHeader {
   width: 170px;
   margin-bottom: -70px;
@@ -71,17 +80,27 @@ color texte:  color: #312422;
   width: 300px;
 }
 
+.bigLine {
+  margin: 2px;
+  color: #cbc9b9;
+  margin-left: auto;
+  margin-right: auto;
+  width: 340px;
+}
+
 h2 {
   font-family: Emilea;
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+  color: #312422;
 }
 
 p {
   font-family: roc-grotesk, sans-serif;
   font-weight: 400;
   font-style: normal;
+  color: #312422;
 }
 
 .textPresentation {
@@ -97,6 +116,7 @@ p {
   width: 60px;
   position: relative;
   left: 40%;
+  margin-bottom: 85px;
 }
 
 .imgPresentation {
@@ -157,3 +177,21 @@ p {
 .containerAdresse {
   margin-bottom: -85px;
 }*/
+
+.imgEtageUn {
+  width: 160px;
+  border-radius: 42px;
+  margin: 10px;
+  margin-top: 50px;
+}
+
+.imgEtageDeux {
+  margin: 25px 0px; 
+  width: 330px ;
+  border-radius: 56px;
+}
+
+.imgEtageTrois {
+  width: 100px ;
+  border-radius: 25px;
+}
