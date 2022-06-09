@@ -195,3 +195,37 @@ p {
   width: 100px ;
   border-radius: 25px;
 }
+
+
+.littleLineRight{
+  position: relative;
+  margin: 2px;
+  color: #cbc9b9;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95px;
+  left: 100px;
+  bottom: 17px;
+}
+
+.endPage {
+  background-color: #e8e1d4;
+  padding-top: 35px;
+  padding-bottom: 5px;
+}
+
+.littleLineLeft{
+  position: relative;
+  color: #cbc9b9;
+  width: 95px;
+  color: #cbc9b9;
+  margin-left: auto;
+  margin-right: auto;
+  right: 102px;
+  top: 17px;
+}
+
+.espacementTitre {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
