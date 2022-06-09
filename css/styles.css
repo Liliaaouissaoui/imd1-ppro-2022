@@ -194,6 +194,7 @@ p {
 .imgEtageTrois {
   width: 100px ;
   border-radius: 25px;
+  margin-bottom: 20px;
 }
 
 
@@ -228,4 +229,14 @@ p {
 .espacementTitre {
   margin-top: 20px;
   margin-bottom: 5px;
+}
+
+.mapRomande {
+  width: 266px;
+  margin-top: 25px;
+}
+
+.SectionPointDeVentes {
+  padding-bottom: 30px;
+  padding-top: 2px;
 }
