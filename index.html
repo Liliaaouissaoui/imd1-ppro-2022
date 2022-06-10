@@ -11,6 +11,21 @@
 </head>
 <body>
   <header class="backgroundDarkColor containerHeader">
+    <section class="top-nav">
+      <div>
+      </div>
+      <input id="menu-toggle" type="checkbox" />
+      <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+      </label>
+      <ul class="menu">
+        <li><a class="textBurger" href="#SP">Semences de Pays</a></li>
+        <li><a class="textBurger" href="#PHOTO">Photographies</a></li>
+        <li><a class="textBurger" href="#SEM">Nos Semences</a></li>
+        <li><a class="textBurger" href="#PDV">Points de ventes</a></li>
+        <li><a class="textBurger" href="#CONT">Contacts</a></li>
+      </ul>
+    </section>
     <img class="BeeeHeader" src="./img/abeille.png" alt="dessin d'une abeille vue de haut">
     <h1>
       <img class="logoHeader" src="./img/logo_semence_de_pays.svg" alt="logo semences de pays">
@@ -21,7 +36,7 @@
       <div class="container">
         <div>
           <hr class="line">
-          <h2>SEMENCES DE PAYS</h2>
+          <h2 id="SP">SEMENCES DE PAYS</h2>
           <hr class="line">
         </div>
         <p class="textPresentation">Semences de pays développe une production de semences reproductibles, rustiques et
@@ -36,7 +51,7 @@
       <div>
         <div>
           <hr class="line">
-          <h2>PHOTOGRAPHIES</h2>
+          <h2 id="PHOTO">PHOTOGRAPHIES</h2>
           <hr class="line">
         </div>
         <div>
@@ -58,11 +73,11 @@
         </div>
       </div>
     </div>
-    <div class="backgroundLightColor">
+    <div class="backgroundDarkColor">
       <div>
         <div class="secondTitles">
           <hr class="line">
-          <h2 class="espacementTitre">NOS SEMENCES</h2>
+          <h2 id="SEM" class="espacementTitre">NOS SEMENCES</h2>
           <hr class="littleLineLeft">
           <p class="subtitle">Produits</p>
           <hr class="littleLineRight">
@@ -78,7 +93,7 @@
       </div>
       <div class="SectionPointDeVentes">
         <hr class="line">
-        <h2 class="espacementTitre">POINTS DE VENTES</h2>
+        <h2 id="PDV" class="espacementTitre">POINTS DE VENTES</h2>
         <hr class="littleLineLeft">
         <p class="subtitle">Suisse Romande</p>
         <hr class="littleLineRight">
@@ -163,7 +178,7 @@
   <footer class="endPage">
     <div>
       <hr class="line">
-      <h2 class="espacementTitre">CONTACTS</h2>
+      <h2 id="CONT" class="espacementTitre">CONTACTS</h2>
       <hr class="littleLineLeft">
       <p class="subtitle">SEMENCES DE PAYS</p>
       <hr class="littleLineRight">
